@@ -22,9 +22,9 @@ void setup() {
   }
 
 
-  p1 = loadImage("A.png");
-  p2 = loadImage("2.png");
-  p3 = loadImage("9.png");
+  p1 = loadImage("data/A.png");
+  p2 = loadImage("data/2.png");
+  p3 = loadImage("data/9.png");
 }
 
 
