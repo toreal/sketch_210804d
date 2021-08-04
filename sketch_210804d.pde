@@ -30,7 +30,7 @@ void setup() {
 
 void mouseClicked() {
   if (sel ==-1) {
-    sel= mouseX/cw + (mouseY/ch)*n;
+    sel= (int) mouseX/cw + (int)(mouseY/ch)*n;
   } else {
     sec =mouseX/cw + (mouseY/ch)*n;
     timer =50;
