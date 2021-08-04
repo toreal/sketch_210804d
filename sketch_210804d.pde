@@ -32,7 +32,7 @@ void mouseClicked() {
   if (sel ==-1) {
     sel=(int)( (int)( mouseX/cw) + (int)(mouseY/ch)*n);
   } else {
-    sec =mouseX/cw + (mouseY/ch)*n;
+    sec =(int)( (int)( mouseX/cw) + (int)(mouseY/ch)*n);
     timer =50;
   }
   print(sel);
