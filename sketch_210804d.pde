@@ -28,11 +28,11 @@ void setup() {
 }
 
 
-void mousePressed() {
+void touchStarted() {
   if (sel ==-1) {
-    sel= mouseX/cw + (mouseY/ch)*n;
+    sel= touchX/cw + (touchY/ch)*n;
   } else {
-    sec =mouseX/cw + (mouseY/ch)*n;
+    sec =touchX/cw + (touchY/ch)*n;
     timer =50;
   }
   print(sel);
