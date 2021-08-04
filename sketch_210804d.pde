@@ -28,7 +28,7 @@ void setup() {
 }
 
 
-void mousePressed() {
+void mouseClicked() {
   if (sel ==-1) {
     sel= mouseX/cw + (mouseY/ch)*n;
   } else {
