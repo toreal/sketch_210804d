@@ -76,7 +76,7 @@ void draw() {
         } else
         {
           fill(255);
-          circle( i* cw +cw/2, j *ch+ch/2, 50);
+          rect( i* cw +gap, j *ch+gap, cw-2*gap, ch-2*gap);
         }
 
 
